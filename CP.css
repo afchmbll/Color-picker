@@ -1,0 +1,57 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction:column;
+    background:rgb(255,255,255);
+    margin-top:10%;
+    font-family:Helvetica, sans-serif;
+}
+
+#background{
+    background:white;
+    width:8em;
+    height:8em;
+    display:flex;
+    align-items:center;
+    margin-bottom:2em;
+}
+
+#colorpick{
+    width:7em;
+    height:7em;
+    margin:auto;
+    border-radius:25px;
+    border:none;
+    background:none;
+    padding:0.6em;
+    transition:width 0.5s, height 0.5s;
+}
+
+#colorpick:hover{
+    cursor:pointer;
+    width:9em;
+    height:9em;
+}
+
+#header{
+    font-size: 35px;
+}
+
+#button{
+    width:13em;
+    height:3.5em;
+    font-size:0.8em;
+    font-weight:bold;
+    border:none;
+    background:white;
+    border-radius:1em;
+    transition:width, 0.5s;
+
+}
+
+#button:hover{
+    cursor:pointer;
+    width:14em;
+}
+
